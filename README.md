@@ -1,4 +1,4 @@
-# Electrate
+# Electron excel demo
 
 ## Installing
 
