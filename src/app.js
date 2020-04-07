@@ -1,4 +1,6 @@
 import React from 'react';
+import FileSelection from './components/FileSelection';
+import Navigation from './components/Navigation';
 
 export default class App extends React.Component {
     dummy = () => {
@@ -6,12 +8,10 @@ export default class App extends React.Component {
     }
 
     render() {
+
         return (
             <div className={'hello'}>
-                <h2>Hello Electrate</h2>
-                <img src="./assets/logo.png" />
-                <h4>A basic Electron + React.js template</h4>
-                <h4>Have Fun!</h4>
+                <Navigation></Navigation>
             </div>
         );
     }

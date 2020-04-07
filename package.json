@@ -1,5 +1,5 @@
 {
-  "name": "electrate",
+  "name": "Excelreader",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "app/main.js",
@@ -42,10 +42,13 @@
     "electron-is-dev": "^1.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0"
+    "react-html-parser": "^2.0.2",
+    "react-router-dom": "^5.0.0",
+    "read-excel-file": "^4.0.6",
+    "xlsx": "^0.15.6"
   },
   "build": {
-    "appId": "com.karmadust.electrate",
+    "appId": "com.ham.excelReader",
     "files": [
       "app/**/*",
       "node_modules/**/*",
