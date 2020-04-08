@@ -6,9 +6,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/mmick66/electrate my-app
+git clone https://github.com/hascicm/ElectronTest
 # Go into the repository
-cd my-app
+cd ElectronTest
 # Install dependencies
 npm install
 ```
